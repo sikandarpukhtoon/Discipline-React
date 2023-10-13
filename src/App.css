@@ -1,0 +1,95 @@
+
+/* .App {
+  background-color: white;
+} */
+.App {
+  background-image: url('./assets/images/logo.jpeg');
+  background-size: cover;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  color: rgb(34, 34, 34);
+  font-weight: 800;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+.Auth-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.customForm{
+  max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+@media screen and (max-width: 600px) {
+  .Auth-form-container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .Auth-form-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .modal-content {
+    max-width: 100%;
+    margin: 0;
+  }
+  
+  .modal-header, .modal-footer {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .backCustom {
+    height: 100%;
+  }
+  form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.mobile {
+  width: 80px;
+  height: 80px;
+  margin: 0% auto;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #e4dcf2;
+}

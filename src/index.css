@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+/* Style the form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style the labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the inputs */
+input[type="text"], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="view report"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="view report"]:hover {
+  background-color: #45a049;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+input[type="My Cases"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="My Cases"]:hover {
+  background-color: #45a049;
+}
+input[type="pending cases"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="pending cases"]:hover {
+  background-color: #45a049;
+}
+input[type="farward case"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="farward cases"]:hover {
+  background-color: #45a049;
+}
+input[type="Relax punishment"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="Relax punishment"]:hover {
+  background-color: #45a049;
+}
+input[type="Add sub member"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="Add sub member"]:hover {
+  background-color: #45a049;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #f2f2f2;
+}
+.higlited2 {
+  width: 400px;
+  max-width: 100%;
+  background-color:rgba(165, 22, 22, 0.2);
+  color:red;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px rgba(165, 22, 22, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+  border-width: 2px;
+}
+.c1{
+  width: 1000px;
+  background: #000;
+}
